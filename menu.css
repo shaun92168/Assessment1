@@ -1,0 +1,27 @@
+#menu {
+	position:fixed;
+	left:-110px;
+	top:50px;
+	width:100px;
+	padding:5px;
+	background-color:black;
+	transition: left 1s;
+}
+
+.menu_btn {
+	width:100%;
+}
+
+#open_btn, #close_btn {
+	position:absolute;
+	width:50px;
+	right:-50px;
+}
+
+#open_btn {
+	top:0px;
+}
+
+#close_btn {
+	bottom:0px;
+}
